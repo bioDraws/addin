@@ -10,11 +10,11 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="BioDraws"/>
   <Description DefaultValue="A template to get started."/>
-  <IconUrl DefaultValue="https://www.contoso.com/assets/icon-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://www.contoso.com/assets/icon-64.png"/>
-  <SupportUrl DefaultValue="https://www.contoso.com/help"/>
+  <IconUrl DefaultValue="https://raw.githubusercontent.com/bioDraws/addin/main/assets/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://raw.githubusercontent.com/bioDraws/addin/main/assets/icon-64.png"/>
+  <SupportUrl DefaultValue="https://raw.githubusercontent.com/bioDraws/addin/main/help"/>
   <AppDomains>
-    <AppDomain>https://www.contoso.com</AppDomain>
+    <AppDomain>https://raw.githubusercontent.com/bioDraws/addin/main</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Presentation"/>
@@ -66,15 +66,14 @@
     </Hosts>
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="https://www.contoso.com/assets/icon-16.png"/>
-        <bt:Image id="Icon.32x32" DefaultValue="https://www.contoso.com/assets/icon-32.png"/>
-        <bt:Image id="Icon.80x80" DefaultValue="https://www.contoso.com/assets/icon-80.png"/>
+        <bt:Image id="Icon.16x16" DefaultValue="https://raw.githubusercontent.com/bioDraws/addin/main/assets/icon-16.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue="https://raw.githubusercontent.com/bioDraws/addin/main/assets/icon-32.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://raw.githubusercontent.com/bioDraws/addin/main/assets/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <!-- Link to your taskpane.js file -->
         <bt:Url id="TaskpaneJs.Url" DefaultValue="https://raw.githubusercontent.com/bioDraws/addin/main/taskpane.js"/>
         <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://go.microsoft.com/fwlink/?LinkId=276812"/>
-        <bt:Url id="Commands.Url" DefaultValue="https://www.contoso.com/commands.html"/>
+        <bt:Url id="Commands.Url" DefaultValue="https://raw.githubusercontent.com/bioDraws/addin/main/commands.html"/>
         <bt:Url id="Taskpane.Url" DefaultValue="https://raw.githubusercontent.com/bioDraws/addin/main/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
