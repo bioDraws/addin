@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="TaskPaneApp">
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
+           xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides"
+           xsi:type="TaskPaneApp">
   <Id>08e74216-67a1-4f05-80bc-200b79a6fac5</Id>
   <Version>1.0.0.0</Version>
   <ProviderName>Contoso</ProviderName>
@@ -51,7 +55,7 @@
                   </Icon>
                   <Action xsi:type="ShowTaskpane">
                     <TaskpaneId>ButtonId1</TaskpaneId>
-                    <SourceLocation resid="https://raw.githubusercontent.com/bioDraws/addin/refs/heads/main/taskpane.html"/>
+                    <SourceLocation resid="https://raw.githubusercontent.com/bioDraws/addin/main/taskpane.html"/>
                   </Action>
                 </Control>
               </Group>
@@ -67,9 +71,11 @@
         <bt:Image id="Icon.80x80" DefaultValue="https://www.contoso.com/assets/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
+        <!-- Link to your taskpane.js file -->
+        <bt:Url id="TaskpaneJs.Url" DefaultValue="https://raw.githubusercontent.com/bioDraws/addin/main/taskpane.js"/>
         <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://go.microsoft.com/fwlink/?LinkId=276812"/>
         <bt:Url id="Commands.Url" DefaultValue="https://www.contoso.com/commands.html"/>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://raw.githubusercontent.com/bioDraws/addin/refs/heads/main/taskpane.html"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://raw.githubusercontent.com/bioDraws/addin/main/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="GetStarted.Title" DefaultValue="Get started with your sample add-in!"/>
