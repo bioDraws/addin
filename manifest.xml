@@ -13,13 +13,13 @@
   <IconUrl DefaultValue="https://github.com/bioDraws/addin/blob/main/icon-32.png"/>
   <HighResolutionIconUrl DefaultValue="https://github.com/bioDraws/addin/blob/main/icon-64.png"/>
   <AppDomains>
-    <AppDomain>https://github.com/bioDraws/addin</AppDomain>
+    <AppDomain>https://biodraws.github.io/addin/</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Presentation"/>
   </Hosts>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://github.com/bioDraws/addin/blob/main/taskpane.html"/>
+    <SourceLocation DefaultValue="https://biodraws.github.io/addin/"/>
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
   <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
@@ -54,7 +54,7 @@
                   </Icon>
                   <Action xsi:type="ShowTaskpane">
                     <TaskpaneId>ButtonId1</TaskpaneId>
-                    <SourceLocation resid="https://github.com/bioDraws/addin/blob/main/taskpane.html"/>
+                    <SourceLocation resid="https://biodraws.github.io/addin/"/>
                   </Action>
                 </Control>
               </Group>
@@ -71,7 +71,7 @@
       </bt:Images>
       <bt:Urls>
         <bt:Url id="TaskpaneJs.Url" DefaultValue="https://github.com/bioDraws/addin/blob/main/taskpane.js"/>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://github.com/bioDraws/addin/blob/main/taskpane.html"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://biodraws.github.io/addin/"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="GetStarted.Title" DefaultValue="Get started with your sample add-in!"/>
